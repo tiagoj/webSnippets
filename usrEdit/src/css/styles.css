@@ -1,53 +1,54 @@
-/* line 4, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
+/* line 4, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
 .hiOrange {
   background-color: #fcd19f; }
 
-/* line 7, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
+/* line 7, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
 .hiBlue {
   background-color: #9fa3fc; }
 
-/* line 10, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
+/* line 10, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
 .hiLtOrange {
   background-color: #ffebd3; }
 
-/* line 13, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
+/* line 13, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
 .hiLtBlue {
   background-color: #d3d5fc; }
 
-/* line 16, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
+/* line 16, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
 .hiLtGreen {
   background-color: #d3fcd3; }
 
-/* line 19, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
+/* line 19, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
 .hiLtRed {
   background-color: #fcd3d3; }
 
-/* line 22, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
+/* line 22, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
 .hiLtYellow {
   background-color: #fcfad3; }
 
-/* line 26, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
+/* line 26, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
 .topSpace {
   height: 20px; }
 
-/* line 30, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
+/* line 30, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
 .rolesHi {
   background-color: #FFD; }
 
-/* line 34, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
+/* line 34, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
 .editHi {
   background-color: #FDF; }
 
-/* line 38, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
+/* line 38, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
 .rolesTitle {
   color: #999;
   margin-left: -15px; }
 
-/* line 43, /Users/james/GitHubRepos/webSnippets/usrEdit2/src/css/styles.scss */
-.myIcon {
+/* line 43, /Users/james/GitHubRepos/webSnippets/usrEdit/src/css/styles.scss */
+i.myIcon {
   vertical-align: middle;
   font-size: 30px;
   margin-right: 30px;
+  margin-left: 20px;
   margin-top: -5px; }
 
 /*# sourceMappingURL=styles.css.map */
