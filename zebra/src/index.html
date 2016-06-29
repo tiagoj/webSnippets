@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -11,13 +11,53 @@
 </head>
 
 <body>
-  <h1>New 2 Generated Content</h1>
-  <p>This file was generated from the Brackets New Project extension
-    <br/> You can open this file in Brackets and start editing right away!</p>
+  <h1>Bootstrap Zebra Rows</h1>
+  
   <div class="container">
-    <div class="col-sm-3 hiBlue"> Col </div>
-      
+   
+    <div class="row zebraRow notLastZebraRow hiLtBlue">
+      <div class="col-xs-2 ">Col </div>
+      <div class="col-xs-2 ">Col </div> 
+    </div>
+    <div class="row zebraRow notLastZebraRow hiLtOrange"> 
+      <div class="col-xs-2 ">Col </div>
+      <div class="col-xs-2 ">Col </div>
+    </div>
+    <div class="row zebraRow notLastZebraRow hiLtBlue">
+      <div class="col-xs-2 ">Col </div>
+      <div class="col-xs-2 ">Col </div>
+    </div>  
+    <div class="row zebraRow hiLtOrange">
+      <div class="col-xs-2 ">Col </div>
+      <div class="col-xs-2 ">Col </div>
+    </div>  
   </div>
+  
+  <div class="vspace "></div> 
+  <h1>Flex Zebra Rows</h1>
+  <div class="panel1">
+    <div class="panel1-1 sideGutter "></div>
+    <div class="panel1-2 ">
+      <div class="panel1-2-1 panelCell " style="min-width: 12rem;">
+        <div class="panelCell zebraRow notLastZebraRow hiLtGreen" >Cell 1</div>
+        <div class="panelCell zebraRow notLastZebraRow  hiLtOrange">Cell 1</div>
+        <div class="panelCell zebraRow hiLtGreen">Cell 1</div>
+      </div>
+      <div class="panel1-2-2 ">
+        <div class="panelCell zebraRow notLastZebraRow hiLtOrange" >Cell 1</div>
+        <div class="panelCell zebraRow notLastZebraRow  hiLtGreen">Cell 1</div>
+        <div class="panelCell zebraRow hiLtOrange">Cell 1</div>
+      </div>
+      <div class="panel1-2-3 hiLtBlue">
+        <div class="panelCell zebraRow notLastZebraRow hiLtGreen" >Cell 1</div>
+        <div class="panelCell zebraRow notLastZebraRow  hiLtOrange">Cell 1</div>
+        <div class="panelCell zebraRow hiLtGreen">Cell 1</div>
+      </div>
+      
+    </div>
+    <div class="panel1-3 sideGutter "></div>
+  </div>
+  
 </body>
 
 </html>

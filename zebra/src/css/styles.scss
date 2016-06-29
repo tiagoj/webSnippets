@@ -1,3 +1,7 @@
+$rowPad: .7rem;
+$gutterWidth: 4rem;
+$vSep: 1rem;
+
 h1 {
     color: red;
 }
@@ -14,4 +18,68 @@ div.hiOrange {
 }
 div.hiBlue {
   background-color: #9fa3fc;
+}
+div.hiLtOrange {
+  background-color: #ffebd3;
+}
+div.hiLtBlue {
+  background-color: #d3d5fc;
+}
+div.hiLtGreen {
+  background-color: #d3fcd3;
+}
+div.hiLtRed{
+  background-color: #fcd3d3;
+}
+div.hiLtYellow{
+  background-color: #fcfad3;
+}
+
+.notLastZebraRow {
+  border-bottom: solid ;
+}
+.zebraRow {
+  padding-top: $rowPad;
+  padding-bottom: $rowPad;
+}
+.vspace {
+  height: $vSep;
+}
+.sideGutter{
+  width: 20px;
+}
+
+.panelCell{
+  padding-left: 10px;
+  //padding-right: 10px;
+}
+.panel1{
+  display: flex;
+  flex-direction: row;
+}
+.panel1-1{
+  width: $gutterWidth;
+}
+.panel1-2{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+}
+.panel1-2-1{
+  flex-grow: 1;
+  
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+}
+.panel1-2-2{
+  flex-grow: 2;
+  max-width: 30rem;
+}
+.panel1-2-3{
+  flex-grow: 2;
+  max-width: 30rem;
+}
+.panel1-3{
+  width: $gutterWidth;
 }

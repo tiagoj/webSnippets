@@ -1,13 +1,82 @@
-/* line 1, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+/* line 5, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
 h1 {
   color: red; }
 
-/* line 12, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+/* line 16, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
 div.hiOrange {
   background-color: #fcd19f; }
 
-/* line 15, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+/* line 19, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
 div.hiBlue {
   background-color: #9fa3fc; }
+
+/* line 22, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+div.hiLtOrange {
+  background-color: #ffebd3; }
+
+/* line 25, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+div.hiLtBlue {
+  background-color: #d3d5fc; }
+
+/* line 28, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+div.hiLtGreen {
+  background-color: #d3fcd3; }
+
+/* line 32, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.notLastZebraRow {
+  border-bottom: solid; }
+
+/* line 35, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.zebraRow {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem; }
+
+/* line 39, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.vspace {
+  height: 1rem; }
+
+/* line 42, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.sideGutter {
+  width: 20px; }
+
+/* line 46, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.panelCell {
+  padding-left: 10px; }
+
+/* line 50, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.panel1 {
+  display: flex;
+  flex-direction: row; }
+
+/* line 54, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.panel1-1 {
+  width: 4rem; }
+
+/* line 57, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.panel1-2 {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row; }
+
+/* line 62, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.panel1-2-1 {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem; }
+
+/* line 69, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.panel1-2-2 {
+  flex-grow: 2;
+  max-width: 30rem; }
+
+/* line 73, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.panel1-2-3 {
+  flex-grow: 2;
+  max-width: 30rem; }
+
+/* line 77, /Users/james/GitHubRepos/webSnippets/zebra/src/css/styles.scss */
+.panel1-3 {
+  width: 4rem; }
 
 /*# sourceMappingURL=styles.css.map */
