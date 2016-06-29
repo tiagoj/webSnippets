@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <h2>Demo UsrEdit</h2>
+  <div class="container">
+    
+    <div class="row" style="display:flex; justify-content:space-between; margin-bottom:5px">
+      <i class="fa fa-caret-right myIcon"> </i>
+      <div style="flex-grow:1"></div>
+      <button class="btn btn-danger btn-sm" style="margin-right:30px">Delete User</button>
+      <button class="btn btn-warning btn-sm" style="margin-right:30px">Cancel</button>
+      <button class="btn btn-primary btn-sm" style="margin-right:15px">Submit</button>
+    </div> <!-- row -->
+    
+    <div class="row">
+     
+      <div class="col-sm-8 col-lg-6"> <!-- edits -->
+        <div class="form-horizontal">
+          <div class="form-group">
+            <label class="col-sm-3 control-label"><span>Email</span></label>
+            <div class="col-sm-8">
+              <input placeholder="Email" class="form-control"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-3 control-label">First</label>
+            <div class="col-sm-8">
+              <input class="form-control"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-3 control-label">Last Name</label>
+            <div class="col-sm-8">
+              <input class="form-control"/>
+            </div>
+          </div>
+        </div>
+      </div> <!-- edits -->
+      
+      <div class="col-sm-4 col-lg-3 panel panel-default"> <!-- roles -->
+        <div class="panel-body"><span class="rolesTitle h4">Roles:</span>
+          <div class="checkbox">    
+            <label>
+              <input type="checkbox"/><span>ADMIN</span>
+            </label>
+          </div>
+          <div class="checkbox">    
+            <label>
+              <input type="checkbox"/><span>MGR</span>
+            </label>
+          </div>
+          <div class="checkbox">    
+            <label>
+              <input type="checkbox"/><span>USR_MGR</span>
+            </label>
+          </div>
+        </div>
+      </div><!-- roles -->
+
+    </div><!-- row -->
+  </div>
+
+</body>
+<!-- 
+    <div class="row hiLtBlue">
+    </div>
+-->
+</html>
